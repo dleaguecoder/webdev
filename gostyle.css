@@ -1,0 +1,6 @@
+h1{
+	border: 10px dashed Blue;
+	padding: 5px;
+	width: 500px;
+}
+/*Originally, I missed the semicolon on line 2 which affected the style for my entire html doc*/
