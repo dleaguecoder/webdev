@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>Introducing JavaScript</title>
+		<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta name="description" content="The script tag allows inline incorporation of dynamic and resposiveness to the end user of a website">
+	</head>
+	<body>
+		<noscript>JavaScript is NOT enabled!</noscript>
+		<h1 onclick="this.innerText='Mouse Clicked!'; this.style.color='Red'">Active Heading</h1>
+		<script>document.getElementsByTagName('h1')[0].onmouseover = function(){this.innerText='Mouse Is Over' ; this.style.color='Blue'}</script>
+		<script src="coolscript.js"></script>
+	</body>
+</html>
